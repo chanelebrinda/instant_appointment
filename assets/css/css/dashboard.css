@@ -1,0 +1,210 @@
+.insapp_dashboard_wrap .h1,
+.insapp_dashboard_wrap .h2,
+.insapp_dashboard_wrap .h3,
+.insapp_dashboard_wrap .h4,
+.insapp_dashboard_wrap .h5,
+.insapp_dashboard_wrap .h6,
+.insapp_dashboard_wrap h1,
+.insapp_dashboard_wrap h2,
+.insapp_dashboard_wrap h3,
+.insapp_dashboard_wrap h4,
+.insapp_dashboard_wrap h5,
+.insapp_dashboard_wrap h6 {
+    color: var(--dashui-heading-color, inherit);
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: "Inter", "sans-serif" !important;
+    margin-bottom: .5rem;
+    margin-top: 0
+}
+
+.insapp_dashboard_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100%;
+    letter-spacing: normal;
+    border-top: 1px solid #eee;
+}
+
+.insapp_dashboard_wrap button {
+    letter-spacing: normal;
+}
+
+ol,
+ul {
+    margin: 0;
+}
+
+.insapp_dashboard_sidebar {
+    width: 25%;
+    background-color: black;
+    float: left;
+
+}
+
+.insapp_dashboard_content {
+    width: 75%;
+    min-height: 900px;
+    overflow: hidden;
+    margin-top: 0px;
+    flex: 5 auto;
+    background-color: #ecf1f4;
+}
+.insapp_calendar_style {
+    padding: 4px 10px;
+    border-radius: 8px;
+}
+
+.insappp_content_page {
+    border-bottom: none;
+}
+
+.insapp-navbar-brand {
+    padding: 10px;
+}
+
+.insapp_notif_icons {
+    height: 1.5rem;
+    line-height: 1rem;
+    width: 1.5rem;
+    color:#4b4b4b
+}
+.insapp_notif_icons:hover {
+    
+    color: #2e0e3b;
+}
+
+.insapp_content_main {
+    padding: 25px;
+}
+
+.navbar-vertical .navbar-brand {
+    display: block;
+    margin-right: 0;
+    padding: 1rem 1.5rem 1.5rem;
+}
+
+#sideNavbar {
+    padding-top: 20px;
+}
+
+.navbar-nav .nav .nav-item .nav-link {
+    color: #eee;
+    padding: 0.25rem 3rem;
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link {
+    align-items: center;
+    color: #eee;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.8;
+    padding: 0.5rem 1.5rem;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    white-space: nowrap;
+}
+
+.navbar-nav .nav-link.ins_active,
+.navbar-nav .show>.nav-link {
+    color: #FFF;
+    background-color: #aa24e3;
+    border-radius: 6px;
+}
+.navbar-nav .nav-link.ins_active:hover,
+.navbar-nav .show>.nav-link:hover {
+    color: #FFF;
+    background-color: #9b28cd;
+    border-radius: 6px;
+}
+.flex-column {
+    flex-direction: column !important;
+}
+
+.navbar-nav {
+    --dashui-nav-link-padding-x: 0;
+    --dashui-nav-link-padding-y: 0.5rem;
+    --dashui-nav-link-font-weight: ;
+    --dashui-nav-link-color: var(--dashui-navbar-color);
+    --dashui-nav-link-hover-color: var(--dashui-navbar-hover-color);
+    --dashui-nav-link-disabled-color: var(--dashui-navbar-disabled-color);
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.insapp_div_active {
+    display: block !important;
+}
+
+.insapp_content_dashbord {
+
+    display: none;
+
+}
+
+
+/******************   user     *****************/
+/* .insapp-account {
+    display: flex;
+    width: calc(100% + 20px);
+    margin: 0 0 10px 0;
+}
+.insapp-account{
+    flex: 1;
+    margin-right: 20px;
+}
+.insapp-account input.insapp-account-type-radio:empty {
+    display: none;
+}
+
+#insapp_register_user_form input {
+    transition: box-shadow 0.2s !important;
+}
+.insapp-account input.insapp-account-type-radio:checked~label {
+    background-color: #624bff;
+}
+
+.insapp-account input.insapp-account-type-radio:checked~label {
+    color: #fff;
+    background-color: #66676b;
+}
+
+.insapp-account input.insapp-account-type-radio:empty~label {
+    position: relative;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 11px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 4px;
+    color: #888;
+    transition: 0.4s;
+    height: 48px;
+    line-height: 28px;
+    overflow: hidden;
+}
+
+.insapp-account label {
+    border-radius: 3px;
+    border: none;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+#insapp_register_user_form label {
+    position: relative;
+    color: #666;
+    font-size: 15px;
+} */

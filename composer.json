@@ -1,0 +1,24 @@
+{
+    "name": "vendor/instant_appointment",
+    "require": {
+        "php": ">=5.3",
+        "phpmailer/phpmailer": "^6.8.0",
+        "namespace/package-name": "^2.6",
+        "pagely/composer-example": "new-look"
+    },
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://IT-team237@bitbucket.org/tenteeglobal/instant-appointment.git"
+        }
+    ],
+    "require-dev": {
+    "namespace/package-name": "^2.6"
+  }
+}

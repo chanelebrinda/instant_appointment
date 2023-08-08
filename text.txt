@@ -1,0 +1,39 @@
+customer_new_account : E-mail envoyé au client lorsqu'un compte utilisateur est créé pour lui par l'administrateur du site.
+
+customer_note : E-mail envoyé au client lorsque l'administrateur ou le responsable du magasin ajoute une note à la commande du client.
+
+customer_reset_password : E-mail envoyé au client lorsqu'il réinitialise son mot de passe.
+
+customer_processing_order : E-mail envoyé au client lorsque sa commande est en cours de traitement.
+
+customer_completed_order : E-mail envoyé au client lorsque sa commande est terminée avec succès (livrée ou mise à disposition).
+
+customer_invoice : E-mail envoyé au client avec la facture de sa commande.
+
+customer_new_account_passwordless : E-mail envoyé au client lorsqu'un compte utilisateur sans mot de passe est créé pour lui par l'administrateur du site.
+
+customer_refunded_order : E-mail envoyé au client lorsque sa commande est remboursée.
+
+customer_reset_password_notice : E-mail envoyé au client pour l'informer qu'une demande de réinitialisation de mot de passe a été effectuée pour son compte.
+
+customer_completed_order_with_download : E-mail envoyé au client lorsque sa commande est terminée avec succès et qu'il y a des produits téléchargeables inclus dans la commande.
+
+customer_invoice_paid : E-mail envoyé au client pour l'informer que sa facture a été payée.
+
+customer_invoice_refunded : E-mail envoyé au client pour l'informer qu'un remboursement a été effectué pour sa facture.
+
+customer_new_account_passwordless_no_password : E-mail envoyé au client pour l'informer qu'un compte utilisateur sans mot de passe a été créé pour lui par l'administrateur du site, et qu'il doit définir un mot de passe.
+
+customer_on_hold_order : E-mail envoyé au client pour l'informer que sa commande est en attente en raison de circonstances particulières (par exemple, en attente de paiement manuel ou en attente d'approbation spéciale).
+
+new_order : E-mail envoyé au propriétaire du magasin lorsque qu'une nouvelle commande est passée.
+
+cancelled_order : E-mail envoyé au propriétaire du magasin lorsque la commande est annulée.
+
+failed_order : E-mail envoyé au propriétaire du magasin lorsque le paiement de la commande échoue.
+
+customer_payment_retry : E-mail envoyé au client lorsqu'une nouvelle tentative de paiement est effectuée après un échec de paiement.
+
+customer_payment_retry_failure : E-mail envoyé au client lorsque la nouvelle tentative de paiement a également échoué.
+
+customer_payment_method_update : E-mail envoyé au client pour l'informer qu'une mise à jour de sa méthode de paiement a été effectuée.
